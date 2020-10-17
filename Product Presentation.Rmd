@@ -1,0 +1,45 @@
+---
+title: "NeWorPred: Next Word Prediction Application"
+author: "Alejandro"
+date: "17/10/2020"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Introduction
+
+Around the world, people are spending an increasing amount of time on their mobile devices for email, social networking, banking and a whole range of other activities. This has led to the development of a smart keyboard that make use of predictive text models to make it easier for people to type on their mobiles devices. One of the most popular smart keyboard has been developed by Switfkey, the corporate partner in this specialization. 
+
+## Objective
+
+The objective of this Capstone Specialization is to build a predictive text product that take multiple words as an input and returns a new predicted word. For more information about natural language processing and predictive text models you can consult some of the following links:
+
+_ [How Algorithms Know What You’ll Type Next](https://pudding.cool/2019/04/text-prediction/)
+
+_ [Wikipedia page for Predictive Text](https://en.wikipedia.org/wiki/Predictive_text)
+
+_ [Text mining infrastucture in R](http://www.jstatsoft.org/v25/i05/)
+
+_ [CRAN Task View: Natural Language Processing](https://cran.r-project.org/web/views/NaturalLanguageProcessing.html)
+
+## Methodology 
+
+The dataset for this project is provided by Swiftkey and can be downloaded [here](https://d396qusza40orc.cloudfront.net/dsscapstone/dataset/Coursera-SwiftKey.zip)
+
+Although this dataset includes blog, news and twitter txt files from four languages: English, German, Russian and Finnish, for this capstone project only the English txt files are used. 
+
+For the predictive text models I have used some R packages as [tm](https://cran.r-project.org/web/packages/tm/tm.pdf) and [RWeka](https://cran.r-project.org/web/packages/RWeka/RWeka.pdf). However there are more packages avalaible in R for this task, some of them are revisited in the following [link](https://hub.packtpub.com/9-useful-r-packages-for-nlp-text-mining/). 
+
+## More Information
+
+Application is located at:
+
+
+Code is located at:
+
+
+
+
